@@ -3430,7 +3430,7 @@ local uc = Instance.new("UICorner")
      toggle.Parent = gui
      toggle.BackgroundColor3 = Color3.new(25, 25, 25)
      toggle.Position = UDim2.new(0.010852701, 0, 0.461059183, 0)
-     toggle.Size = UDim2.new(20, 20, 20)
+     toggle.Size = UDim2.new(0.116279073, 0, 0.0778816193, 0)
      toggle.Font = Enum.Font.Oswald
      toggle.TextSize = 14
      toggle.TextColor3 = Color3.new(255, 255, 255)
@@ -3451,7 +3451,7 @@ local uc = Instance.new("UICorner")
   end)
   
   uc.Parent = toggle
-  uc.CornerRadius = UDim2.new(0.3, 0)
+  uc.CornerRadius = UDim.new(0.3, 0)
 end
   
 UserInputService.InputBegan:Connect(function(input, processed)
