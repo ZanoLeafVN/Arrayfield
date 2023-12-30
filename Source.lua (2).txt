@@ -3419,7 +3419,7 @@ end)
 local uis = game:GetService("UserInputService")
 if uis.TouchEnabled or Gamepad.Enabled then
 local gui = Instance.new("ScreenGui")
-local toggle = Instance.new("TextButtton")
+local toggle = Instance.new("TextButton")
 local uc = Instance.new("UICorner")
 
      gui.Name = "gui"
